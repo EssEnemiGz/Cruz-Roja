@@ -330,7 +330,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .nav-open-btn {
-  color: var(--white);
+  color: var(--black);
   font-size: 4rem;
 }
 
@@ -345,7 +345,7 @@ body.nav-active { overflow: hidden; }
 .navbar {
   right: -300px;
   max-width: 300px;
-  background-color: var(--rich-black-fogra-29);
+  background-color: var(--background-red-2);
   z-index: 3;
   transition: 0.25s var(--cubic-in);
   visibility: hidden;
@@ -405,7 +405,9 @@ body.nav-active { overflow: hidden; }
   visibility: visible;
 }
 
-
+.whited-font{
+  color: white;
+}
 
 
 
@@ -710,6 +712,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .footer .logo { margin-block-end: 20px; }
+
+.footer-logo{
+  border-radius: 50%;
+  background-color: white;
+  padding: 15px;
+}
 
 .contact-item {
   display: flex;
