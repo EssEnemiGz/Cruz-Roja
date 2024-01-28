@@ -529,7 +529,7 @@
   }
 
   .more-articles{
-    margin-inline: 20px;
+    margin-inline: auto;
     flex-direction: row;
   }
 
