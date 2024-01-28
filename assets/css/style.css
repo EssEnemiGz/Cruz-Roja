@@ -11,7 +11,7 @@
   --background-red-2: rgb(255, 58, 58);
   --rich-black-fogra-29: hsl(222, 44%, 8%);
   --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
-  --midnight-green: rgb(230, 64, 64);
+  --midnight-red: rgb(230, 64, 64);
   --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
   --independece: hsl(236, 14%, 39%);
   --verdigris: rgb(248, 75, 75);
@@ -175,7 +175,7 @@ body.nav-active { overflow: hidden; }
 .headline-sm { line-height: 1.3; }
 
 .headline-md,
-.headline-sm { color: var(--midnight-green); }
+.headline-sm { color: var(--midnight-red); }
 
 .headline-sm { font-size: var(--headline-sm); }
 
@@ -545,7 +545,7 @@ body.nav-active { overflow: hidden; }
 
 .tab-btn {
   background-color: var(--alice-blue);
-  color: var(--midnight-green);
+  color: var(--midnight-red);
   padding: 7px 30px;
   border-radius: var(--radius-6);
   font-weight: var(--fw-700);
@@ -557,7 +557,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .tab-text {
-  color: var(--midnight-green);
+  color: var(--midnight-red);
   margin-block: 35px;
 }
 
@@ -600,7 +600,7 @@ body.nav-active { overflow: hidden; }
   font-family: var(--ff-oswald);
 }
 
-.listing-card .card-text { color: var(--midnight-green); }
+.listing-card .card-text { color: var(--midnight-red); }
 
 
 
@@ -621,7 +621,7 @@ body.nav-active { overflow: hidden; }
   padding: 50px 36px;
   border-radius: var(--radius-12);
   border: 2px solid var(--alice-blue);
-  background-image: url('../images/blog-card.jpg');
+  background-image: url('../images/cruz-roja-expanded.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -636,7 +636,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .blog-card::before {
-  background-color: var(--midnight-green);
+  background-color: var(--midnight-red);
   opacity: 0.9;
 }
 
@@ -655,7 +655,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: center;
   gap: 5px;
-  color: var(--midnight-green);
+  color: var(--midnight-red);
 }
 
 .blog-card .card-meta ion-icon { font-size: 1.8rem; }
@@ -732,8 +732,6 @@ body.nav-active { overflow: hidden; }
   display: inline;
   transition: var(--transition-1);
 }
-
-.contact-link:is(:hover, :focus-visible) { color: var(--verdigris); }
 
 .footer-list-title {
   color: var(--white);
@@ -820,7 +818,7 @@ body.nav-active { overflow: hidden; }
   z-index: 3;
 }
 
-.back-top-btn:is(:hover, :focus-visible) { background-color: var(--eerie-black); }
+.back-top-btn:is(:hover, :focus-visible) { background-color: var(--secundary-red); }
 
 .back-top-btn.active {
   transform: translateY(-10px);
