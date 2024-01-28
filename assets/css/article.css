@@ -528,6 +528,11 @@
     max-width: 720px;
   }
 
+  .more-articles{
+    margin-inline: 20px;
+    flex-direction: row;
+  }
+
   .micro-divisor{
     max-width: 520px;
   }
