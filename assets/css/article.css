@@ -533,6 +533,15 @@
     flex-direction: row;
   }
 
+  .description-to-more{
+    margin-left: 30px;
+  }
+
+  .description-more, .anexo-article{
+    text-align: left;
+    width: auto;
+  }
+
   .micro-divisor{
     max-width: 520px;
   }
