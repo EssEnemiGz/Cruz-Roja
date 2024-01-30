@@ -834,10 +834,10 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 /**
- * responsive for large than 768px screen
+ * responsive for large than 758px screen
  */
 
-@media (min-width: 768px) {
+@media (min-width: 758px) {
 
   /**
    * CUSTOM PROPERTY
